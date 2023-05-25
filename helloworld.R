@@ -1,0 +1,12 @@
+---
+# title: "Hello world!"
+# author: "Sam HP"
+# date: "2023-05-25"
+# output: github_document
+# ---
+# test sentence
+
+#+ {r, eval=TRUE
+x <- seq(-4, 4, length=100)
+y <- dnorm(x)
+plot(x,y, type = "l", lwd = 2, axes = FALSE, xlab = "", ylab = "")
